@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
+
+body{
+ font-family: 'Nunito' , sans-serif;
+ background: #040614;
+ color:#3dd8fc;
+
+}
+ul#header{
+    float: right;
+    list-style: none;
+    display: block;
+
+}
+ul li{
+    float:right;
+    padding:10px;
+    padding-left: 5px;
+}
+img#logo{
+    width:150px;
+    position: relative;
+    top: -9px;
+    left: -2px;
+}
+ .logo{
+    float:left;
+}
+.list {
+    float: right;
+    padding: 20px;
+    font-size: 20px;
+    position: relative;
+    top: -21px;
+    left: -27px;
+}
+
+#dp {
+    border-radius: 50%;
+    width: 415px;
+    height: 414px;
+    position: relative;
+    top: 172px;
+    left: 96px;
+    z-index: 950;
+}
+#back {
+    border-radius: 50%;
+    width: 415px;
+    height: 414px;
+    position: relative;
+    top: -247px;
+    left: 244px;
+    z-index: 900;
+    background: #3dd8fc;
+    mix-blend-mode: normal;
+    filter: blur(30px);
+}
+
+.left-int {
+    position: relative;
+    float: right;
+    right: 34px;
+    left: -320px;
+    top: -569px;
+}
+
+.left-int h3 {
+    font-size: 40px;
+    top: -56px;
+    position: absolute;
+    left: 3px;
+}
+
+.left-int h1 {
+    font-size: 60px;
+}
+
+h3#box {
+    font-size: 30px;
+    /* border: 15px white; */
+    border: 3px solid;
+    padding: 7px;
+}
+.box{
+    position: relative;
+}
