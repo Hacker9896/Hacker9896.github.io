@@ -43,7 +43,16 @@ img#logo{
     top: 172px;
     left: 96px;
     z-index: 950;
+    animation: orb 3s infinite;
 }
+/* @keyframes orb {
+	0%,100% {
+		box-shadow: 0 0 40px 3px #3dd8fc;
+	}
+	50% {
+		box-shadow: 0 0 50px 9px #3dd8fc;
+	}
+} */
 #back {
     border-radius: 50%;
     width: 415px;
@@ -55,8 +64,8 @@ img#logo{
     background: #3dd8fc;
     mix-blend-mode: normal;
     filter: blur(30px);
+    transition: all 0.2s ease-in-out;
 }
-
 .left-int {
     position: relative;
     float: right;
@@ -84,4 +93,77 @@ h3#box {
 }
 .box{
     position: relative;
+}
+#resume {
+    border: 3px solid;
+    transition: all 0.2s ease-in-out;
+    padding: -71px;
+    padding: 4px;
+    position: relative;
+    padding-left: 21px;
+    top: 0px;
+    left: -7px;
+    padding-right: 21px;
+}
+#resume:hover{
+    color: #3dd8fc;
+    box-shadow: 0 5px 15px ;
+}
+
+img#icon {
+    width: 30px;
+    display: block;
+    padding: 10px;
+    transition: transform .2s ease; 
+    z-index: 2;
+}
+
+
+.icons {
+    display: block;
+    position: fixed;
+    float: left;
+    top: 413px;
+    left: 34px;
+    z-index: 950;
+}
+.icons-back {
+    display: block;
+    position: fixed;
+    float: left;
+    top: 413px;
+    left: 34px;
+    filter: blur(20px);
+    z-index:900;
+}
+#icon:hover{
+    transform: scale(1.5);
+    
+}
+a:link {
+    text-decoration: none;
+    color: #3DD8FC;
+}
+
+.mail {
+    transform: rotate(90deg);
+    position: fixed;
+    float: right;
+    top: 536px;
+    left: 1362px;
+}
+svg#\34 {
+    transform: scaley(-1);
+    position: fixed;
+    
+    top: 277px;
+    left: 1474px;
+    width: 33px;
+
+}
+svg#\33 {
+    position: fixed;
+    top: -105px;
+    left: 1475px;
+    width: 33px;
 }
