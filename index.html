@@ -9,6 +9,17 @@
     <title>Shashank Dangi</title>
 </head>
 <body>
+    <div class="preloader" id="preloader">
+        <!-- Compressing bars component -->
+        <div class="bars-common bar-one"></div>
+        <div class="bars-common bar-two"></div>
+        <div class="bars-common bar-three"></div>
+
+        <!-- Rotating squares component -->
+        <div class="squares-common square-one"></div>
+        <div class="squares-common square-two"></div>
+
+    </div>
     
     
     
@@ -33,8 +44,8 @@
             <div class="back" id="back"></div>
            </div>
             <div class="left-int">
-                <h3>Hi, I am </h3>
-                <h1>Shashank Dangi</h1>
+                <h3 id="intro">Hi, I am </h3>
+                <h1 id="name">Shashank Dangi</h1>
                 <div class="box">
                     <h3 id = "box">SOFTWARE DEVELOPER</h3>
                 </div>
@@ -59,8 +70,15 @@
             
         </div>
         
+        
     </section>
-  
+    <script>
+        var loader = document.getElementById("preloader");
+        
+        window.addEventListener("load",function(){
+            loader.style.display="none";
+        });
+    </script>
 
     
 </body>
